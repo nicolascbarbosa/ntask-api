@@ -1,7 +1,7 @@
 module.exports = {
   database: 'ntask',
-  username: 'root',
-  password: 'root',
+  username: 'nicolas',
+  password: 'nicolas',
   params: {
     dialect: 'sqlite',
     storage: 'ntask.sqlite',

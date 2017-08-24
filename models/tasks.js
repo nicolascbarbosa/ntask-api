@@ -21,9 +21,9 @@ module.exports = (sequelize, DataType) => {
       }
     },
     {
-      classMethod: {
-        associate: (models) => {
-          Tasks.belognsTO(models.Users)
+      classMethods: {
+        associate: models => {
+          Tasks.belongsTo(models.Users);
         }
       }
     }
